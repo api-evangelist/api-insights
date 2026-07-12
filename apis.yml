@@ -49,6 +49,8 @@ apis:
       - type: Demo
         url: https://apiinsights.io/reports/demo-report
 common:
+  - type: DomainSecurity
+    url: security/api-insights-domain-security.yml
   - type: Website
     url: https://apiinsights.io/
   - type: Support
