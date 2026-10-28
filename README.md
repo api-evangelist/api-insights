@@ -1,4 +1,4 @@
-# API Insights (api-insights)
+# API Insights
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,63 +66,99 @@
 
 API Insights is a free online tool powered by Treblle that provides advanced API analysis and monitoring by evaluating OpenAPI specifications across multiple dimensions including AI readiness, design quality, performance, and security. It scores APIs against industry benchmarks and provides actionable recommendations for improvement.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/api-insights/refs/heads/main/apis.yml)
+**Areas:** AI Readiness · Analysis · Analytics · API Design · Dashboards · Developer Tools · Insights · Monitoring · OpenAPI · Platform · Security · Treblle
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## API Insights on APIs.io
 
-## Tags:
+Everything profiled for API Insights is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/api-insights/](https://apis.io/providers/api-insights/)** — or go straight to one of the APIs or properties below.
 
- - AI Readiness, Analysis, Analytics, API Design, Dashboards, Insights, Monitoring, OpenAPI, Platform, Security, Treblle
+### APIs (1)
 
-## Timestamps
+- [API Insights Analysis](https://apis.io/apis/api-insights/api-insights-analysis/) — API Insights analyzes OpenAPI specifications (OAS v3, JSON or YAML) and produces detailed scorecards across AI Readiness, Design, Performance, and Security…
 
-- **Created:** 2025-01-08
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### API Insights Analysis
-API Insights analyzes OpenAPI specifications (OAS v3, JSON or YAML) and produces detailed scorecards across AI Readiness, Design, Performance, and Security dimensions. Each category receives a letter grade and percentage score benchmarked against industry standards, with pass/fail/skipped status for individual checks.
+#### Security (1)
 
-**Human URL:** [https://apiinsights.io/](https://apiinsights.io/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Api Insights Domain Security](https://apis.io/security/api-insights/api-insights-domain-security/)
 
- - AI Readiness, Analysis, API Design, OpenAPI, Performance, Security, Scoring
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://apiinsights.io/)
-- [Demo](https://apiinsights.io/reports/demo-report)
+- [Api Insights Plans Pricing](https://apis.io/plans/api-insights/api-insights-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Api Insights Rate Limits](https://apis.io/rate-limits/api-insights/api-insights-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Api Insights Finops](https://apis.io/finops/api-insights/api-insights-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://apiinsights.io/)
-- [Support](mailto:support@apiinsights.io)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| AI Readiness Scoring | Evaluates schema descriptions, operation IDs, parameter documentation, and response descriptions to ensure APIs are well-structured for AI integration. |
-| Design Analysis | Checks contact information, operation documentation, code examples, HTTP method variety, URL versioning, endpoint naming consistency, and rate-limiting headers. |
-| Performance Analysis | Assesses compression support, response sizes, HTTP/2 usage, load times, caching policies, and CDN implementation targeting 500ms or less. |
-| Security Analysis | Checks authentication enforcement, IDOR vulnerability risks, security scheme definitions, and HTTP security headers including HSTS, X-Frame-Options, and Content-Security-Policy. |
-| Industry Benchmarking | Scores APIs against industry peers with percentile rankings such as Top 10% in your industry. |
-| OpenAPI Upload and URL Input | Accepts OpenAPI v3 specifications via file upload or URL for instant analysis. |
+**Kin Score 9.8** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 7.9 |
 
-| Name | Description |
-|------|-------------|
-| API Quality Assurance | Validate API design quality before publishing by running specifications through automated scoring checks. |
-| Security Compliance Review | Identify authentication gaps, IDOR risks, and missing security headers before deployment. |
-| AI Integration Readiness | Ensure APIs are well-documented and structured for consumption by AI agents and LLM-based tools. |
-| Performance Optimization | Detect missing compression, caching, or CDN configurations that degrade API performance. |
-| API Governance | Establish baseline design quality standards across API portfolios using industry benchmark scores. |
+**Agent readiness 0.6** — human-only
 
-## Maintainers
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-**FN:** Kin Lane
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-**Email:** info@apievangelist.com
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/api-insights/](https://apis.io/providers/api-insights/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for API Insights: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/api-insights/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
